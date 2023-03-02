@@ -6,7 +6,7 @@
 /*   By: pfrances <pfrances@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/01 21:40:25 by pfrances          #+#    #+#             */
-/*   Updated: 2023/03/02 22:42:15 by pfrances         ###   ########.fr       */
+/*   Updated: 2023/03/02 23:15:20 by pfrances         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,8 +54,8 @@ void	Harl::complain( std::string level ) const {
 	{
 		if (level == name[i]) {
 			(this->*func[i])();
+			return ;
 		}
-		return ;
 	}
 	std::cout << "	[ Probably complaining about insignificant problems ]" << std::endl;
 }
