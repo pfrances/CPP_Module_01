@@ -6,7 +6,7 @@
 /*   By: pfrances <pfrances@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/01 21:38:23 by pfrances          #+#    #+#             */
-/*   Updated: 2023/03/01 22:54:01 by pfrances         ###   ########.fr       */
+/*   Updated: 2023/03/03 21:15:59 by pfrances         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,6 @@ public:
 		Zombie( void );
 
 		Zombie( std::string name );
-
-		Zombie*	zombieHorde(int N, std::string name);
 
 		void	setName(std::string name);
 
